@@ -1,0 +1,4 @@
+{
+    set_prt: bool
+    # for _/set_prt/main
+}
