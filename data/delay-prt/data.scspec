@@ -1,0 +1,10 @@
+
+@pdata :< {
+    players[] :< {
+        data :< {
+            delay-prt: {
+                halted[]: HaltedTask
+            }
+        }
+    }
+}

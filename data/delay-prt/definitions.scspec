@@ -1,0 +1,10 @@
+
+delay\Task :< {
+    prt? bool
+}
+
+HaltedTask := delay\Task << {
+    !time
+    !targets
+    remaining_ticks: int
+}
