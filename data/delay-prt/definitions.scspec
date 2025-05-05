@@ -3,6 +3,14 @@ delay\Task :< {
     prt? bool
 }
 
+pdata\PlayerEntry :< {
+    data :< {
+        delay-prt: {
+            halted[]: HaltedTask
+        }
+    }
+}
+
 HaltedTask := delay\Task << {
     !time
     !targets
