@@ -10,7 +10,7 @@ data modify storage delay:in delay.failsafe set from storage delay-prt:_ var.joi
 data modify storage delay:in delay.data set from storage delay-prt:_ var.join.resumes[0].data
 data modify storage delay:in delay.ticks set from storage delay-prt:_ var.join.resumes[0].remaining_ticks
 function delay:delay
-function delay-prt:_/enable
+function delay-prt:enable
 
 data remove storage delay-prt:_ var.join.resumes[0]
 execute if data storage delay-prt:_ var.join.resumes[0] run function delay-prt:_/join/resumes/each
