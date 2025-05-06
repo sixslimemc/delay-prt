@@ -10,5 +10,8 @@ data modify storage delay:in delay.ticks set from storage delay-prt:_ var.join.r
 function delay:delay
 function delay-prt:enable
 
+# set the new task_id to the old task_id (this may cause problems(?) but probably not.):
+data modify storage delay:data tasks[-1].task_id set from storage delay-prt:_ var.join.resumes[0].task_id
+
 data remove storage delay-prt:_ var.join.resumes[0]
 execute if data storage delay-prt:_ var.join.resumes[0] run function delay-prt:_/join/resumes/each
