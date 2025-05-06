@@ -3,5 +3,5 @@
 # _/subscriber/pdata/on_register
 #--------------------
 
-data merge storage pdata:in {set:{path:"delay-prt.halted_tasks", value:[]}}
+data merge storage pdata:in {set:{path:"delay-prt.halted", value:[]}}
 function pdata:self/set

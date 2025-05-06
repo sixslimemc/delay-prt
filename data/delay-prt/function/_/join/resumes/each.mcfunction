@@ -3,8 +3,6 @@
 # ../trigger
 #--------------------
 
-data modify storage delay-prt:_ var.join.this_resume set from storage delay-prt:_ var.join.resumes[0]
-
 data modify storage delay:in delay.command set from storage delay-prt:_ var.join.resumes[0].command
 data modify storage delay:in delay.failsafe set from storage delay-prt:_ var.join.resumes[0].failsafe
 data modify storage delay:in delay.data set from storage delay-prt:_ var.join.resumes[0].data
