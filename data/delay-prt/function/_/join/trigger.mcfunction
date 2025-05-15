@@ -1,6 +1,6 @@
 #> delay-prt:_/join/trigger
 #--------------------
-# doorman <!> on_join
+# doorman <!> join
 #--------------------
 
 execute store result storage delay-prt:_ var.join.pindex int 1 run scoreboard players get @s pdata.index

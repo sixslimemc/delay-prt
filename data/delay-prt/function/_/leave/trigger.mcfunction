@@ -1,10 +1,10 @@
 #> delay-prt:_/leave/trigger
 #--------------------
-# doorman <!> on_leave
+# doorman <!> leave
 #--------------------
 
 # {..halting} & {..p_entry}:
-function delay-prt:_/leave/get_halting with storage doorman:hook on_leave
+function delay-prt:_/leave/get_halting with storage doorman:hook leave
 
 execute store result score *leave.halts _delay-prt if data storage delay-prt:_ var.leave.halting[]
 

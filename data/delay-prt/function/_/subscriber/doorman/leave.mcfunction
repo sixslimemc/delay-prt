@@ -1,3 +1,3 @@
-#> doorman <!> on_leave
+#> doorman <!> leave
 
 function delay-prt:_/leave/trigger

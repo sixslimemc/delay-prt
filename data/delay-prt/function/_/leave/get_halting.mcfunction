@@ -1,6 +1,6 @@
 #> delay-prt:_/leave/trigger
 #--------------------
-# doorman <!> on_leave
+# doorman <!> leave
 #--------------------
 
 $data modify storage delay-prt:_ var.leave.halting append from storage delay:data tasks[{prt:true, targets:[{uuid:$(uuid)}]}]
