@@ -9,6 +9,6 @@ struct Out {}
 
 enum(int) Return {
     Success = 1,
-    NotEnabled = -1,
-    NoTask = -2,
+    NoTask = -1,
+    NotEnabled = -2,
 }
