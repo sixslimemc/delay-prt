@@ -1,0 +1,14 @@
+
+use super::super::def::TaskId
+
+struct In {
+    task_id: TaskId,
+}
+
+struct Out {}
+
+enum(int) Return {
+    Success = 1,
+    AlreadyEnabled = -1,
+    NoTask = -2,
+}

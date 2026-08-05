@@ -1,8 +1,12 @@
 
 dispatch minecraft:storage[delay-prt:in] to struct In {
-
+    enable: super::function::enable::In,
+    enable_for: super::function::enable_for::In,
+    disable_for: super::function::disable_for::In,
 }
 
 dispatch minecraft:storage[delay-prt:out] to struct Out {
-
+    enable: super::function::enable::Out,
+    enable_for: super::function::enable_for::Out,
+    disable_for: super::function::disable_for::Out,
 }

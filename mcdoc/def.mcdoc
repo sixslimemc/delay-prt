@@ -1,0 +1,2 @@
+
+type TaskId = ::delay::mcdoc::def::TaskId
