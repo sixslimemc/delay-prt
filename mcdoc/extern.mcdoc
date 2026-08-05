@@ -2,3 +2,7 @@
 dispatch mcdoc:custom_data["delay-prt"] to struct CustomData {
     
 }
+
+inject struct ::delay::mcdoc::def::Task {
+    prt?: boolean,
+}

@@ -2,7 +2,7 @@
 
 **ID:** `sixslime.delay-prt`
 
-> TODO: DESC
+> Pause tasks for player-targets while they are offline.
 
 ## Description
 
