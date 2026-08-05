@@ -1,0 +1,8 @@
+
+dispatch minecraft:storage[delay-prt:in] to struct In {
+
+}
+
+dispatch minecraft:storage[delay-prt:out] to struct Out {
+
+}

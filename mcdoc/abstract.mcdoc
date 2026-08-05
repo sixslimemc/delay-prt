@@ -1,0 +1,8 @@
+
+dispatch minecraft:storage[delay-prt:abstract/in] to struct AbstractIn {
+
+}
+
+dispatch minecraft:storage[delay-prt:abstract/out] to struct AbstractOut {
+
+}

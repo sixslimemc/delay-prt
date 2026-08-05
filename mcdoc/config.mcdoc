@@ -1,0 +1,4 @@
+
+dispatch minecraft:storage[delay-prt:config] to struct Config {
+
+}
