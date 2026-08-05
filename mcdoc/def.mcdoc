@@ -1,2 +1,8 @@
 
 type TaskId = ::delay::mcdoc::def::TaskId
+type Task = ::delay::mcdoc::def::Task
+
+struct PausedTask {
+    original_task: Task,
+    remaining_ticks: int @ 1..,
+}

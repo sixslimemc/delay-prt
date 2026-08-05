@@ -1,8 +1,14 @@
 
+use super::def::PausedTask
+
 dispatch mcdoc:custom_data["delay-prt"] to struct CustomData {
     
 }
 
-inject struct ::delay::mcdoc::def::Task {
+dispatch pdata:player_data["delay-prt"] to struct PlayerData {
+    paused_tasks: [PausedTask],
+}
+
+dispatch delay:task_attachments["delay-prt"] to struct TaskAttachments {
     prt?: true,
 }
