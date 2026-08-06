@@ -6,7 +6,7 @@ dispatch mcdoc:custom_data["delay-prt"] to struct CustomData {
 }
 
 dispatch pdata:player_data["delay-prt"] to struct PlayerData {
-    paused_tasks: [PausedTask],
+    paused_tasks?: [PausedTask],
 }
 
 dispatch delay:task_attachments["delay-prt"] to struct TaskAttachments {
