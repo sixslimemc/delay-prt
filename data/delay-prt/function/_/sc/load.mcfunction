@@ -6,6 +6,7 @@ scoreboard objectives add _delay-prt dummy
 # DECLARE _scores:
 # *leave_pause =? 1
 # *join_resume =? 1
+# *gametime = gametime
 
 # DECLARE _tags:
 # _.joined = added on hook doorman:join
