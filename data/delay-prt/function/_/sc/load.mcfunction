@@ -3,7 +3,12 @@
 
 scoreboard objectives add _delay-prt dummy
 
+# DECLARE _scores:
+# *leave_pause = 0..1
+# *join_resume = 0..1
 
+# DECLARE _tags:
+# _.joined = added on hook doorman:join
 
 # DEBUG
 scoreboard players reset *init _delay-prt
