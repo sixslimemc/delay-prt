@@ -1,6 +1,7 @@
 
 type TaskId = ::delay::mcdoc::def::TaskId
 type Task = ::delay::mcdoc::def::Task
+type Uuid = #[uuid] [int] @ 4
 
 struct PausedTask {
     original_task: Task,

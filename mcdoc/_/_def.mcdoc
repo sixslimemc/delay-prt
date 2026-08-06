@@ -1,4 +1,6 @@
 
+use super::super::def::Uuid
+
 struct VariableRegister {
     [string]: any
 }
@@ -15,7 +17,7 @@ dispatch minecraft:storage[delay-prt:_] to struct {
     x: VariableRegister,
     // data
     data: struct PrivateData {
-        
+        just_left: [Uuid]
     },
     // constants
     const: struct Constants {
