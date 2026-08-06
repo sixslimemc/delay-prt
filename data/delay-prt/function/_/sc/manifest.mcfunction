@@ -17,7 +17,7 @@ data modify storage slimecore:in manifest.pack.display.links.info set value "htt
 data modify storage slimecore:in manifest.pack.display.links.versions set value "https://github.com/sixslimemc/delay-prt/releases"
 
 data modify storage slimecore:in manifest.pack.entrypoints set value []
-data modify storage slimecore:in manifest.pack.entrypoints append value {id:"join_resume"}
+data modify storage slimecore:in manifest.pack.entrypoints append value {id:"join_resume", after:[{pack_ref:"doorman", id:"main"}]}
 data modify storage slimecore:in manifest.pack.entrypoints append value {id:"leave_pause"}
 
 data modify storage slimecore:in manifest.pack.preload_entrypoints set value []
