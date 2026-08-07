@@ -7,7 +7,7 @@ data modify storage delay-prt:_ t.join.original_task set from storage delay-prt:
 
 # resume task:
 data modify storage delay:in delay.targets set value [{uuid:[0, 0, 0, 0]}]
-data modify storage delay:in delay.targets[0] set from storage delay-prt:_ t.join.uuid
+data modify storage delay:in delay.targets[0].uuid set from storage delay-prt:_ t.join.uuid
 data modify storage delay:in delay.command set from storage delay-prt:_ t.join.original_task.command
 data modify storage delay:in delay.failsafe set from storage delay-prt:_ t.join.original_task.failsafe
 data modify storage delay:in delay.data set from storage delay-prt:_ t.join.original_task.data
