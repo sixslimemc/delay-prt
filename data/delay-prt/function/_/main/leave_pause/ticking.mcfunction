@@ -8,4 +8,5 @@ execute unless score *leave_pause _delay-prt matches 1 run return 0
 execute store result score *gametime _delay-prt run time query gametime
 execute if data storage delay-prt:_ data.just_left[0] run function delay-prt:_/main/leave_pause/leaving_uuds/each
 
+data remove storage delay-prt:_ t.leave
 scoreboard players reset *leave_pause _delay-prt
